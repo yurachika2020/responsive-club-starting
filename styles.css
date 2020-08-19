@@ -1,0 +1,185 @@
+html {
+    display: block;
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    background-color: lightsalmon;
+    display: block;
+}
+
+div {
+    display: block;
+}
+
+.bar {
+    padding: 0.5rem 0;
+    background-color: teal;
+    color: lightsalmon;
+    font-weight: bold;
+}
+
+
+ul {
+    list-style: none;
+    margin: 0;
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+li {
+    color: lightsalmon;
+    padding: 0.5rem 1.5rem;
+    margin-right: 1.5rem;
+    display: inline-block;
+}
+.intro {
+    height: 20rem;
+    padding-top: 1rem;
+    background-image: url(https://codecademy-content.s3.amazonaws.com/PRO/independent-practice-projects/responsive-meetup-page/img/runner-splash.jpg);
+    background-position: center;
+}
+
+/* banner */
+h1 {
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    text-align: center;
+}
+.intro h1 {
+    color: Coral;
+    font-size: 2rem;
+    margin-top: 10rem;
+    padding: 2rem;
+    background-color: rgba(0.5, 0.5, 0.5, 0.5);
+    text-align: center;
+}
+
+/* summary */
+.summary {
+    padding: 0 1rem;
+}
+
+.summary, .testimonial, .photos, .meetup {
+    margin: 4em auto;
+}
+
+.summary h2 {
+    color: yellow;
+    font-size: 2rem;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.summary p {
+    color: White;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+}
+
+/* photos */
+.summary, .testimonial, .photos, .meetup {
+    margin: 3em auto;
+}
+
+.photos img {
+    width: 30%;
+    margin: 1.5%;
+}
+
+/* testimonial */
+.testimonial {
+    background-color: teal;
+    height: 15rem;
+    padding: 0 1rem;
+    color: yellow;
+}
+
+.summary, .testimonial, .photos, .meetup {
+    margin: 4em auto;
+}
+
+.testimonial h1 {
+    font-size: 2rem;
+    color: yellow;
+    padding: 2rem;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+/* meetup */
+.meetup h1 {
+    color: yellow;
+    text-align: center;
+    font-size: 2rem;
+}
+.meetup {
+    padding: 1rem;
+}
+.summary, .testimonial, .photos, .meetup {
+    margin: 4em auto;
+}
+.meetup img {
+    width: 30%;
+    margin: 0 35%;
+
+}
+
+div .meetup {
+    scroll-padding: 1rem;
+    text-align: center;
+}
+
+
+
+/* media query */
+@media only screen and (max-width: 768px) {
+    
+    .photos img {
+      width: 100%;
+      display: block;
+      margin: auto;
+    }
+    .meetup img {
+        width: 100%;
+        display: block;
+        margin: auto;
+      }
+  }
+
+
